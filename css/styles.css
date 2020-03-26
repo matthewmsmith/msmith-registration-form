@@ -1,0 +1,12 @@
+*{
+  margin: auto;
+  box-sizing: border-box;
+}
+body{
+
+  font-family:  'Merriweather', serif;
+}
+.code-review-color {
+  background-color: rgb(52, 48, 75);
+  padding-bottom: 2em;
+}
