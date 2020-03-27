@@ -8,22 +8,25 @@ body {
   flex-direction: column;
   font-family: 'Merriweather', serif;
   line-height: 1.6em;
+  height: 100vh;
 }
+fieldset{
+  border: none;
+}
+
 label{
   display: block;
+ 
 }
 input {
   width: 100%;
+  border: none;
+  border-radius: 10px;
   background-color:rgb(230, 228, 228);
-  padding: 1em;
+  padding: 2em;
+  margin: 1em 0 1em;
   text-align: right;
 }
-
-.zip-code {
-  width: 50%;
-  
-}
-
 
 .code-review-control {
  background-color: rgb(21, 23, 32);
@@ -47,12 +50,37 @@ input {
   padding: .5em;
 } 
 .header-introduction {
-  display: block;
-  padding: 1em;
-  font-size: 2em;
+  text-transform: capitalize;
+  padding: 2em 0;
 }
 .main-wrapper {
-
-  border-top: .5em black solid;
+  border-top: .3em black solid;
   margin: 2em;
+  width: 90%;
+  margin: auto;
+}
+.input-wrapper {
+  margin-top: .2em;
+  border-top: .2em solid black;
+}
+.zip-code {
+  width: 50%;
+  margin-bottom: 4em;
+  
+}
+.state-of-residency {
+  border: none;
+  border-radius: 10px;
+  padding: 2em;
+  width: 100%;
+  background-color:rgb(230, 228, 228);
+}
+.state-label {
+  margin-bottom: 1em;
+}
+.secondary-wrapper {
+  border-top: .1em solid black;
+  text-align: left;
+  width: 90%;
+  margin: auto;
 }

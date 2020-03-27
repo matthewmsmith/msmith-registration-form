@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+<header class="header-wrapper">
   <div class="code-review-control">
     <h1 class="code-review">the code review</h1>
   </div>
@@ -18,13 +18,14 @@
   <div class="introduction-control">
   <h2 class="signup-introduction"> signup for our newsltter</h2>
   <p class="newsletter-information">get the latest news on how your code is doing right in your inbox</p></div>
-
+</header>
 
 
   <main class="main-wrapper">
+    <div class="input-wrapper">
     <form action="#">
       <fieldset>
-        <legend class="header-introduction">contact information</legend>
+        <legend class="header-introduction"><h2>contact information</h2></legend>
         <label for="name">Full Name</label>
         <input type="text" class="full-name" id="name" name="name" placeholder="Required"><br>
         <label for="email">Email Address</label>
@@ -35,7 +36,7 @@
         <input type="text" class="street-address" id="address" name="address"><br>
         <label for="city">City</label>
         <input type="text" class="city-of-residency" id="city" name="city"><br>
-        <label for="state">State</label>
+        <label for="state" class="state-label">State</label>
         <select name="state" class="state-of-residency" id="state"><br>
           <option value="Michigan">Alabama</option>
           <option value="Michigan">Alaska</option>
@@ -88,28 +89,39 @@
           <option value="Michigan">Wisconsin</option>
           <option value="Michigan">Wyoming</option>
         </select><br>
-        <label for="zip">Zip Code</label>
+        <br><label for="zip" class="zip-label">Zip Code</label>
         <input type="text" class="zip-code" id="zip" name="zip1">
+</fieldset>
+</main>
 
-      </fieldset>
-
+<section class="secondary-wrapper">
       <fieldset>
-
-        <legend class="header-introduction">Newsletter</legend>
-
+        <legend class="header-introduction"><h2>Newsletter</h2></legend>
+       
         <p>Select the newsletters you would like to recieve</p>
-        <input type="checkbox" class="check1" id="checkbox1" name="checkbox"><label for="checkbox1">HTML News</label>
-        <input type="checkbox" class="check2" id="checkbox2" name="checkbox"><label for="checkbox2">CSS News</label>
-        <input type="checkbox" class="check3" id="checkbox3" name="checkbox"><label for="checkbox3">Javascript
-          News</label>
+
+        <label for="checkbox1">HTML News</label>
+        <input type="checkbox" class="check1" id="checkbox1" name="checkbox">
+        <label for="checkbox2">CSS News</label>
+        <input type="checkbox" class="check2" id="checkbox2" name="checkbox">
+        <label for="checkbox3">Javascript News</label>
+        <input type="checkbox" class="check3" id="checkbox3" name="checkbox">
+       
         <p>Newsletter format</p>
-        <input type="radio" class="radio" id="radio1" name="radio"><label for="radio1" value="html">HTML</label>
-        <input type="radio" class="radio" id="radio2" name="radio"><label for="radio2" value="plain">Plain text</label>
+        <label for="radio1" value="html">HTML</label>
+        <input type="radio" class="radio" id="radio1" name="radio">
+        <label for="radio2" value="plain">Plain text</label>
+        <input type="radio" class="radio" id="radio2" name="radio">
+       
+
+
         <label for="textarea">Other topics you'd like to hear about</label>
         <textarea name="textarea" id="textarea" class="textarea1" cols="30" rows="10"></textarea>
+      
       </fieldset>
     </form>
-  </main>
+  
+
 
   <div class="submit-button">
     <button type="button">Sign Up</button>
@@ -118,6 +130,7 @@
   <footer>
     <p>&copy; Copyright 2020, The Code Review</p>
   </footer>
+</section>
 
 </body>
 
