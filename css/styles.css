@@ -18,18 +18,16 @@ input {
   padding: 1em;
   text-align: right;
 }
-.state-of-residency {
-  
 
-}
 .zip-code {
   width: 50%;
   
 }
 
+
 .code-review-control {
  background-color: rgb(21, 23, 32);
- padding: 2em;
+ padding: 1.5em;
  width: 100%;
  
 }
@@ -50,7 +48,11 @@ input {
 } 
 .header-introduction {
   display: block;
+  padding: 1em;
+  font-size: 2em;
 }
 .main-wrapper {
-  margin: 1em;
+
+  border-top: .5em black solid;
+  margin: 2em;
 }
