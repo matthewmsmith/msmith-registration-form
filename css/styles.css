@@ -1,12 +1,56 @@
 *{
-  margin: auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body{
-
-  font-family:  'Merriweather', serif;
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+  line-height: 1.6em;
 }
-.code-review-color {
-  background-color: rgb(52, 48, 75);
-  padding-bottom: 2em;
+label{
+  display: block;
+}
+input {
+  width: 100%;
+  background-color:rgb(230, 228, 228);
+  padding: 1em;
+  text-align: right;
+}
+.state-of-residency {
+  
+
+}
+.zip-code {
+  width: 50%;
+  
+}
+
+.code-review-control {
+ background-color: rgb(21, 23, 32);
+ padding: 2em;
+ width: 100%;
+ 
+}
+.code-review {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.introduction-control {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 3em;
+}
+.signup-introduction {
+  padding: .5em;
+} 
+.header-introduction {
+  display: block;
+}
+.main-wrapper {
+  margin: 1em;
 }
