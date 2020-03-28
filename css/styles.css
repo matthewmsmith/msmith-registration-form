@@ -17,7 +17,8 @@ fieldset{
 
 label{
   display: block;
- 
+  padding: .5em;
+  
 }
 input {
   width: 100%;
@@ -28,6 +29,7 @@ input {
   margin: 1em 0 1em;
   text-align: right;
 }
+
 
 .code-review-control {
  background-color: rgb(21, 23, 32);
@@ -45,6 +47,7 @@ input {
 
 
 .introduction-control {
+  
   text-transform: capitalize;
   text-align: center;
   margin: 3em;
@@ -54,7 +57,11 @@ input {
 } 
 .header-introduction {
   text-transform: capitalize;
-  padding: 2em 0;
+  padding: 1em 0;
+}
+.header-secondary-background {
+  background-color: rgb(230, 228, 228);
+ padding-bottom: 1em;
 }
 .main-wrapper {
   border-top: .3em black solid;
@@ -64,11 +71,12 @@ input {
 }
 .input-wrapper {
   margin-top: .2em;
+  
   border-top: .2em solid black;
 }
 .zip-code {
   width: 50%;
-  margin-bottom: 4em;
+  
   
 }
 .state-of-residency {
@@ -105,6 +113,11 @@ input {
   background: rgb(230, 228, 228);
   border-radius: 10px;
 }
+input:hover,
+input:focus {
+  border: rgb(199, 198, 198)  solid 4px;
+  
+}
 
 .button {
   margin-top: .9em;
@@ -129,7 +142,7 @@ footer{
 @media(min-width: 768px) {
   .main-wrapper, 
   .secondary-wrapper {
-    width: 70%;
+    width: 75%;
   
   }
   
@@ -137,12 +150,12 @@ footer{
    display:flex;
    align-items: center;
    
-   
  }
 
 .info-input-wrapper label {
- flex-basis:  50%;
- 
+ flex-basis:  80%;
+ max-width: 20%;
+
 }
 
 
