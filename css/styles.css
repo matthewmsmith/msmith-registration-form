@@ -73,9 +73,8 @@ input {
 }
 .state-of-residency {
   border: none;
-  border-radius: 10px;
-  padding: 2em;
   width: 100%;
+  height: 4em;
   background-color:rgb(230, 228, 228);
 }
 .state-label {
@@ -93,7 +92,7 @@ input {
  align-items: center; 
 }
 .label-input-group input {
-  width: 1.2em;
+  flex-basis: 2.5em;
 
 }
 .newsletter-info{
@@ -123,4 +122,29 @@ footer{
   margin-bottom: 6em;
   color: rgb(188, 189, 189);
   font-style: italic;
+}
+
+
+/*  Desktop breakpoint */
+@media(min-width: 768px) {
+  .main-wrapper, 
+  .secondary-wrapper {
+    width: 70%;
+  
+  }
+  
+ .info-input-wrapper {
+   display:flex;
+   align-items: center;
+   
+   
+ }
+
+.info-input-wrapper label {
+ flex-basis:  50%;
+ 
+}
+
+
+
 }
